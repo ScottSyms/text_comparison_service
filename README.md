@@ -1,6 +1,10 @@
 # text_comparison_service
+Implements some of the translation validation routines from Hugging Face's '''evaluate''' library.
 
-Run 
+The functions are wrapped with '''fastapi''' so their accessible via a REST call.
 
-uvicorn service:app --reload
+To run, execute 
 
+'''
+uvicorn service:app
+'''
